@@ -14,6 +14,10 @@ A proposta dessa atividade é aplicar o conhecimento adquirido em sala de aula s
    
    - **Item 3**: Listar todos os restaurantes que estiverem até 1km de distância do Port Authority Bus Terminal (NY) (Coordenadas: -73.9929943, 40.7571707).
    
+Todos os itens foram desenvolvidos em um único arquivo (*main.py*) e divididos por um comentário indicando o início do desenvolvimento de cada um. 
+
+Explicando o desenvolvimento do **Item 1** (que eu achei o mais interessante de fazer), eu inicialmente busquei todos os restaurantes da base de dados, converti em uma lista de dicionários, adicionei o campo *loc* seguindo o padrão do GeoJSON, removi o campo com as coordenadas antigas e salvei essas modificações dando um replace em cada documento. 
+   
 ### Como executar
 Para executar o projeto, primeiramente clone esse repositório em sua máquina e certifique-se de que o MongoDB esteja executando na porta padrão (27017).
 
