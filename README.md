@@ -12,7 +12,7 @@ A proposta dessa atividade é aplicar o conhecimento adquirido em sala de aula s
    
    - **Item 2**: Criar um index *2dsphere* para o novo campo criado; e
    
-   - **Item 3**: Listar todos os restaurantes que estiverem até 1km de distância do Port Authority Bus Terminal (NY) (Coordenadas: -73.9929943, 40.7571707).
+   - **Item 3**: Listar todos os restaurantes que estiverem até 1km de distância do Port Authority Bus Terminal (NY) (coordenadas: -73.9929943, 40.7571707).
    
 Todos os itens foram desenvolvidos em um único arquivo (*main.py*) e divididos por um comentário indicando o início do desenvolvimento de cada um. 
 
