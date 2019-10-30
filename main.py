@@ -6,7 +6,7 @@ try:
 except:
     print("Could not connect to MongoDB")
 
-db = mongo_client.geojason
+db = mongo_client.geojson
 collection = db.restaurants
 
 # Item 1: Convert the coordinates of restaurants for default GeoJSON
