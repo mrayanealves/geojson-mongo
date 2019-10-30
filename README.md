@@ -14,7 +14,7 @@ A proposta dessa atividade é aplicar o conhecimento adquirido em sala de aula s
    
    - **Item 3**: Listar todos os restaurantes que estiverem até 1km de distância do Port Authority Bus Terminal (NY) (Coordenadas: -73.9929943, 40.7571707).
    
-### Executando a solução
+### Como executar
 Para executar o projeto, primeiramente clone esse repositório em sua máquina e certifique-se de que o MongoDB esteja executando na porta padrão (27017).
 
 #### Importando a base de dados
@@ -46,3 +46,9 @@ $ mongoimport --db geojson --collection restaurants --drop --file /data/primer-d
 
 É importante sugerir que o nome do seu banco de dados deve ser **geojson** e sua coleção deve se chamar **restaurants**, para ficar consistente com o código e não ser necessária nenhuma mudança. Caso você não queira, altere as linhas 9 e 10 para `db = mongo_client.<nome da sua base de dados; ex: test, geojson>` e `collection = db.<nome da sua coleção; exemplo: restaurants>`, respectivamente.
 
+#### Executando a solução
+Com a base de dados devidamente importada, importe o *pymongo* com o comando ```pip3 install pymongo``` e rode execute o arquivo *main.py* com o python3 (```python3 main.py```). 
+
+O que vai ser retornado para você, no final, é o resultado da consulta do **Item 3** descrito no tópico anterior. Para ver a mudança aos poucos, você pode printar o valor da primeira busca antes da modificação das coordenadas, printar depois de modificado (**Item 2**) e, por fim, printar o resultado da consulta no **Item 3**. 
+
+Pronto! Fique a vontade para mudar o que quiser.
